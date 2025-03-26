@@ -11,9 +11,13 @@
 }
 
 i {
-  color: #fff;
+  color: #FFEA21;
+  margin: 15px 0;
 }
 
+ol {
+  list-style-type: decimal !important;
+}
 html,
 h1,
 body,
@@ -385,6 +389,26 @@ button {
   margin-top: 25px;
 }
 
+.list_container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.section__element img {
+    height: 15px;
+    margin-right: 10px;
+}
+
+.list_container li::marker {
+  display: none;
+  color: transparent;
+}
+
+.list_container div {
+  width: 45%;
+}
+
 .section {
   width: auto;
   margin-left: 144px;
@@ -405,6 +429,7 @@ button {
 .title {
   margin-left: 16px;
   margin-right: 16px;
+  text-align: left !important;
 }
 
 .section__title-description {
@@ -1357,6 +1382,7 @@ table {
   width: fit-content;
   overflow: auto;
   border-radius: 17px;
+  border: none;
 }
 
 tbody {
