@@ -10,6 +10,10 @@
   padding-top: 80px;
 }
 
+i {
+  color: #fff;
+}
+
 html,
 h1,
 body,
@@ -211,10 +215,21 @@ button {
   border-radius: 17px;
 }
 
+.row_images img {
+  width: 30%;
+}
+
+.row_images {
+  display: flex;
+  margin: 30px 0;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .main__image--first {
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url('../images/header.jpg');
+  background-image: url('../images/Bettilt_Header.png');
   background-position: 30%;
 }
 
